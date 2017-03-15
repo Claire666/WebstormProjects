@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title>editableTable</title>
+	<link rel="stylesheet" type="text/css" href="editable.css" />
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">加bootstrap -->
+	<script language="javascript" src="editable.js" type="text/javascript">
+	</script>
+<script type="text/javascript">
+	function setToEditable(tableid){
+		document.getElementById(tableid).onclick=editCell;	
+	}
+</script>
+</head>
+
+<body onload="setToEditable('editable')">
+	<div style="height:40px;"></div>
+	<center>
+	<table border="1" id="editable" class="stats" style="table-layout:fixed">
+		<tr bgcolor="#666666">
+			<th>姓名</th>
+			<th>周一</th>
+			<th>周二</th>
+			<th>周三</th>
+			<th>周四</th>
+			<th>周五</th>
+		</tr>
+		<tr>
+			<td>王聪
+				<form>
+					<input type="checkbox" name="Bike">
+					<input type="text" name="firstname">
+					<!--<textarea rows="10" cols="30">wenbenkuang-->
+				</form>
+			</td>
+			<td>
+				<div class="row">
+					<div class="col-md-2">
+						<input type="checkbox" value="">
+					</div>
+					<div class="col-md-2">
+						<textarea class="form-control"></textarea>
+					</div>
+				</div>
+				<!--<div class="checkbox"><!--复选框
+				<label>
+					<input type="checkbox" value="">
+				</label>
+			</div>-->
+			</td>
+			<td></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">周悦</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">杨月</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">龙光昊</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">白嘎力</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">岳京典</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		</tr>
+		<tr>
+			<td nowrap="nowrap">周凯</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		<tr>
+			<td nowrap="nowrap">高天阳</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+		<tr>
+			<td nowrap="nowrap">黄萌</td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+			<td nowrap="nowrap"></td>
+	</table>
+	</center>
+</body>
+</html>
